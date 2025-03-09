@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diwas Khanal | Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left"><a href="index.html">Diwas Khanal</a></div>
+        <div class="right">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hello, My name is<span class="text-purple"> Diwas Khanal</span>
+                    <div>I am a Passionate</div>
+                    <span id="element"></span>
+                    <div class="buttons">
+                        <a href="https://github.com/diwaskhanal" target="_blank" class="btn"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#" class="btn"><i class="fas fa-download"></i> Download Resume</a>
+                    </div>
+            </div>
+            <div class="rightSection">
+                <img src="images/dev_png.png" alt="Developer">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Experience</h1>
+            
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Frontend Developer</h3>
+                        <p class="timeline-date">2021-2023</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">UI/UX Designer</h3>
+                        <p class="timeline-date">2020-2021</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Full Stack Developer</h3>
+                        <p class="timeline-date">2023-2025</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Project Manager</h3>
+                        <p class="timeline-date">2022-2023</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-pencil-alt"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Technical Writer</h3>
+                        <p class="timeline-date">2019-2020</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main> 
+
+    <footer>
+        <div class="footer">
+            <div class="footer-left">
+                <h3>Diwas Khanal</h3>
+            </div>
+            
+            <div class="footer-right">
+                <div class="social-icons">
+                    <a href="https://github.com/diwaskhanal" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/diwaskhanal/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-rights">
+           Copyright &copy; 2025 | Diwas Khanal | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['Web Developer', 'UI/UX Designer', 'Full Stack Developer'],
+        typeSpeed: 50,
+        backSpeed: 30,
+        loop: true
+      });
+    </script>
+  </body>
+</html>
